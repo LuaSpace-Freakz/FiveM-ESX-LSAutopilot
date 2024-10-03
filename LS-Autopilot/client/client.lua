@@ -55,8 +55,6 @@ RegisterNUICallback("startAutopilot", function(data)
         speed = 60.0
     end
 
-    TriggerEvent('chat:addMessage', {args = {'^2Autopilot', 'Geschwindigkeit gesetzt auf: ' .. tostring(speed) .. ' km/h'}})
-
     ClearPedTasks(playerPed)
 
     TaskVehicleDriveToCoordLongrange(playerPed, vehicle, roadCoords.x, roadCoords.y, roadCoords.z, speed / 3.6, drivingStyle, 1.0, true)
