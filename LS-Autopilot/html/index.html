@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Autopilot Menu</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head>
+<body>
+    <div id="autopilot-menu">
+        <h2>LS-Autopilot</h2>
+        <div class="control-group">
+            <input type="range" id="speed" name="speed" min="30" max="180" value="60" oninput="updateSpeedLabel(this.value)">
+            <span id="speedValue">60 km/h</span>
+        </div>
+        <button class="menu-button" onclick="startAutopilot()">Starten</button>
+        <button class="menu-button" onclick="stopAutopilot()">Stoppen</button>
+        <button class="menu-button" onclick="closeMenu()">Schließen</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
