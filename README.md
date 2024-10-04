@@ -9,5 +9,5 @@ Future plans:
 - F1 Button configurable in the GTA settings
 
 Disclamers:
-- I am not going to bring this to QBCore or Standalone
+- I am not going to bring this to QBCore
 - Support isn't garuanteed (feel free to contact me: https://discordapp.com/users/1161679941075742900)
